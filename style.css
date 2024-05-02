@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+
+.content-wrapper{
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F8F2E7;
+    font-family: "Baskervville", serif;
+    padding-top: 60px;
+}
+.title{
+    width: 570px;
+    text-align: center;
+    font-size: 53px;
+    font-weight: 100;
+    margin: 0 auto;
+}
+#rat{
+    width: 110px;
+    position: absolute;
+    transform: translate(563px, -258px);
+}
+#person{
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+.intro-text{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 60px;
+    font-size: 16px;
+}
+#text-2{
+    margin-top: 15px;
+}
+#text-3{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#text-4{
+    margin-top: 30px;
+}
+.results{
+    width: 400px;
+    margin: 0 auto;
+}
+#passed{
+    width: 300px;
+}
+#bait{
+    width: 260px;
+}
+#failed{
+    width:160px;
+}
+#map{
+    width: 800px;
+}
+.live-dashboard{
+    width: 400px;
+    margin: 0 auto;
+}
