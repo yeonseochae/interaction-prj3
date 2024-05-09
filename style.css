@@ -5,6 +5,7 @@ body{
 .content-wrapper{
     max-width: 800px;
     width: 100%;
+    height: 2950px;
     margin: 0 auto;
     background-color: #F8F2E7;
     font-family: "Baskervville", serif;
@@ -28,10 +29,10 @@ body{
     margin: 0 auto;
 }
 .intro-text{
-    width: 400px;
+    width: 450px;
     margin: 0 auto;
-    margin-top: 60px;
-    font-size: 16px;
+    margin-top: 150px;
+    font-size: 18px;
 }
 #text-2{
     margin-top: 15px;
@@ -43,9 +44,27 @@ body{
 #text-4{
     margin-top: 30px;
 }
+#text-5{
+    margin-top: 30px;
+}
 .results{
-    width: 400px;
     margin: 0 auto;
+    margin-top: 70px;
+    display: grid;
+    grid-template-rows: auto auto; /* Two rows with automatic height */
+    grid-template-columns: auto auto; /* Two columns with automatic width */
+    gap: 10px; 
+}
+.grid-item{
+    margin: 20px 30px 20px 35px;
+}
+.results-header{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.results p{
+    font-size: 16px;
+    margin-top: 0;
 }
 #passed{
     width: 300px;
@@ -54,7 +73,7 @@ body{
     width: 260px;
 }
 #failed{
-    width:160px;
+    width:180px;
 }
 #map{
     width: 800px;
@@ -62,4 +81,54 @@ body{
 .live-dashboard{
     width: 400px;
     margin: 0 auto;
+}
+.live-data{
+    width: 640px;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top: 150px;
+    font-weight: 100;
+    font-size: 27px;
+}
+#best-name{
+    background-color: #e9f893;
+    font-style: italic;
+}
+#best-number{
+    font-weight: 700;
+    background-color: #e9f893;
+}
+#worst-name{
+    background-color: #ffac85;
+    font-style: italic;
+}
+#worst-number{
+    background-color: #ffac85;
+    font-weight: 700;
+}
+.bullet-points{
+    display: grid;
+    grid-template-rows: auto auto auto; /* Two rows with automatic height */
+    grid-template-columns: auto auto;
+    padding-left: 10px;
+    margin-top: 10px;
+    line-height: 16px;
+}
+.list-1{
+    margin-top: 10px;
+}
+.prevention{
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 16px;
+}
+.prevention-list{
+    margin-top: 10px;
+}
+.fight-gif{
+    margin-left: 40px;
+}
+.fight-gif img{
+    width: 700px;
 }

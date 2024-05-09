@@ -11,44 +11,64 @@
         <div class="content-wrapper">
             <h1 class="title">What are the <br>Best Neighborhoods <br>in New York <br>for Rats?</h1>
             <img src="illustrations/rat2.png" id="rat">
+<!-- Live data -->
+            <h3 class="live-data">
+                The best neighborhood for rats in NYC is 
+                <span id="best-name">____</span> with
+                <span id="best-number">(#)</span>  passed inspection results. The worst neighborhood
+                for rats in NYC is<span id="worst-name">____</span> with
+                <span id="worst-number">(#)</span> passed inspection results.
+            </h3>
+
             <p class="intro-text">According to James Barron, New York Times journalist, a plague of rats is rebounding from COVID-19.  The city’s 311 line had received more than 21,000 calls about rat sightings through last Wednesday, compared with 15,000 in the same period in 2019.</p>
             <img src="illustrations/person.png" id="person">
             <p class="intro-text" id="text-2">The Department of Health and Mental Hygiene (DOHMH), the data provider for NYC Rodent Inspection, separates inspection results into 4 different categories.  </p>
            
             <section class="results">
-                <h2 class="results-header">1. Passed</h2>
-                <p class="results">Fulfills the Inpsection guideline</p>
-                <img src="illustrations/passed.png" id="passed">
-                <h2 class="results-header">2. Bait Applied</h2>
-                <p class="results">Application of rodenticide bait, or other monitoring visits by a Health Department pest professional.</p>
-                <img src="illustrations/bait.png" id="bait">
-                <h2 class="results-header">3. Rat Activity</h2>
-                <p class="results">If a property fails its initial inspection, the Health Department will conduct a follow-up inspection</p>
-                <img src="illustrations/failed.png" id="failed">
-                <h2 class="results-header">4. Failed for Another Inspection</h2>
-                <p class="results">Active Rat Signs: Includes any of the following signs:</p>
-                <ul>
-                    <li>Fresh tracks</li>
-                    <li>Fresh droppings</li>
-                    <li>Active burrows</li>
-                    <li>Active runways and rub marks</li>
-                    <li>Fresh gnawing marks</li>
-                    <li>Live rats</li>
-                </ul>
+                <div class="grid-item">
+                    <h2 class="results-header">1. Passed</h2>
+                    <p class="results">Fulfills the Inpsection guideline</p>
+                    <img src="illustrations/passed.png" id="passed">
+                </div>
+                <div class="grid-item">
+                    <h2 class="results-header">2. Bait Applied</h2>
+                    <p class="results">Application of rodenticide bait, or other monitoring visits by a Health Department pest professional.</p>
+                    <img src="illustrations/bait.png" id="bait">
+                </div>
+                <div class="grid-item">
+                    <h2 class="results-header">3. Rat Activity</h2>
+                    <p class="results">If a property fails its initial inspection, the Health Department will conduct a follow-up inspection</p>
+                    <img src="illustrations/failed.png" id="failed">
+                </div>
+                <div class="grid-item">
+                    <h2 class="results-header">4. Failed for Another Inspection</h2>
+                    <p class="results">Active Rat Signs includes any of the following signs:</p>
+                    <ul class="bullet-points">
+                        <li>Fresh tracks</li>
+                        <li>Fresh droppings</li>
+                        <li class="list-1">Active burrows</li>
+                        <li class="list-1">Active runways and rub marks</li>
+                        <li class="list-1">Fresh gnawing marks</li>
+                        <li class="list-1">Live rats</li>
+                    </ul>
+                </div>
             </section>
+            <p class="intro-text" id="text-2">According to NYC Health Department, community groups and residents can work together to take actions to prevent infestation and respond to rats. <br> Here is what you and your neighbors can do:</p>
+            <ul class="prevention">
+                <li class="prevention-list">Clean up litter, as any exposed trash will attract rats</li>
+                <li class="prevention-list">Store garbage in hard plastic rat-resistant containers with lids</li>
+                <li class="prevention-list">Make sure all of the occupants in your building have enough trash containers</li>
+                <li class="prevention-list">Keep landscaped areas around your property free of tall weeds. Trim shrubs that are close to the ground</li>
+                <li class="prevention-list">Check for cracks or holes in the foundation of your building, as well as in the sidewalk and under doors. Repair cracks and holes by filling and sealing them</li>
+                <li class="prevention-list">Help keep parks, sidewalks and green streets clean and uncluttered by disposing of trash properly and sponsoring rat-resistant cans</li>
+                <li class="prevention-list">Host a free community training course on rat control in your neighborhood</li>
+            </ul>
 
-            <p class="intro-text">All the results, except passed, tell that the area is exposed to rats and that it needs to take  steps to make life more difficult for rats to live in those environment. </p>
-            <p class="intro-text" id="text-3">Let’s take a look at this map where the dots represent areas that passed the rodent inspection. The neighborhood with most dots imply that it is less likely to see mice around that area; neighborhood with least amount of dots is where it is comparatively easier to see mice. </p>
-            <img src="illustrations/realmap.jpg" id="map">
-            <p class="intro-text" id="text-4">(neighborhood name) is the best neighborhood in New York for rats with (#) passed inspection results. In contrast, (neighborhood name) is the worst neighborhood for rats with (#) passed inspections. </p>
-            <p class="intro-text" id="text-2">Below is the live dashboard that is updated everyday to show the overall status of best and worst neighborhoods. </p>
-
-            <section class="live-dashboard">
-                <h2 class="neighborhood">Best Neighborhood</h2>
-                <h2 class="neighborhood">Worst Neighborhood</h2>
-
-            </section>
+    
+        <div class="fight-gif">
+            <img src="illustrations/fight.gif">
         </div>
+       
        
     </body>
 </html>
